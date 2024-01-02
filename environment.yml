@@ -12,5 +12,5 @@ dependencies:
   - gcc_linux-64
   - pip:
     - -r requirements.txt
-    
-prefix: /home/phbr/miniconda3/envs/llm-from-scratch
+
+
