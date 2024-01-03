@@ -1,16 +1,15 @@
 name: llm-from-scratch
 channels:
+  - pytorch
   - conda-forge
   - defaults
 dependencies:
-  - pip
-  - python=3.11
+  - python=3.10
   - ipykernel
   - jupyter
   - matplotlib
   - numpy
-  - gcc_linux-64
+  - gcc
   - pip:
     - -r requirements.txt
-
-
+prefix: /home/phbr/miniconda3/envs/llm-from-scratch
