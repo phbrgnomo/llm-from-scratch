@@ -13,4 +13,4 @@ dependencies:
   - pip
   - pip:
     - -r requirements.txt
-prefix: /home/phbr/miniconda3/envs/llm-from-scratch
+
